@@ -2,10 +2,15 @@
 This simple python script will put IPv4 addresses in numeric order starting from the first octet.
 
 # Example usage
-Save list of IPS as targets.txt or rename it on the first line "with open("targets.txt", "r") as infile:"
+Input file is default to "targets.txt and automatically overwrites targets.txt with the addresses in order. Change this according to your specifications in the source code
+
+with open("input.txt", "r") as infile: -- infile (Input File) = "input.txt" 
+with open("output.txt", "w") as outfile: -- outfile (Output File) = "output.txt"
+
 ```
 py ipsort.py
 ```
+# Before Execution
 A randomly generated set of IPv4 addreses.
 ```
 222.21.147.97
@@ -22,6 +27,7 @@ A randomly generated set of IPv4 addreses.
 ```
 
 # After execution of the script
+Organised list of IP addresses 
 ```
 8.52.22.181
 17.40.228.224
