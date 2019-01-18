@@ -6,7 +6,7 @@ Save list of IPS as targets.txt or rename it on the first line "with open("targe
 py ipsort.py
 
 A randomly generated set of IPv4 addreses.
-'''
+```
 222.21.147.97
 187.234.9.45
 144.101.36.131
@@ -18,10 +18,10 @@ A randomly generated set of IPv4 addreses.
 234.78.147.45
 254.150.145.225
 167.111.243.3
-'''
+```
 
 # After execution of the script
-'''
+```
 8.52.22.181
 17.40.228.224
 24.16.131.84
@@ -33,4 +33,4 @@ A randomly generated set of IPv4 addreses.
 222.21.147.97
 234.78.147.45
 254.150.145.225
-'''
+```
