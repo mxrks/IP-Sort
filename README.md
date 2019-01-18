@@ -4,8 +4,8 @@ This simple python script will put IPv4 addresses in numeric order starting from
 # Example usage
 Input file is default to "targets.txt and automatically overwrites targets.txt with the addresses in order. Change this according to your specifications in the source code
 
-with open("input.txt", "r") as infile: -- infile (Input File) = "input.txt" 
-with open("output.txt", "w") as outfile: -- outfile (Output File) = "output.txt"
+- with open("input.txt", "r") as infile: -- infile (Input File) = "input.txt" 
+- with open("output.txt", "w") as outfile: -- outfile (Output File) = "output.txt"
 
 ```
 py ipsort.py
