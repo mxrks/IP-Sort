@@ -3,8 +3,9 @@ This simple python script will put IPv4 addresses in numeric order starting from
 
 # Example usage
 Save list of IPS as targets.txt or rename it on the first line "with open("targets.txt", "r") as infile:"
+```
 py ipsort.py
-
+```
 A randomly generated set of IPv4 addreses.
 ```
 222.21.147.97
